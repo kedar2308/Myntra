@@ -1,0 +1,11 @@
+-- Filling Cart table
+
+INSERT INTO CART(user_Id) values('1l');
+INSERT INTO CART(user_Id) values('2l');
+INSERT INTO CART(user_Id) values('3l');
+
+-- Inserting Item into Cart
+
+INSERT INTO CARTITEM(product_Id, product_Quantity, price, cart_Id) values('1l', '2', '132', '1l');
+INSERT INTO CARTITEM(product_Id, product_Quantity, price, cart_Id) values('2l', '5', '22.5','1l');
+INSERT INTO CARTITEM(product_Id, product_Quantity, price, cart_Id) values('1l', '2', '10', '2l');
